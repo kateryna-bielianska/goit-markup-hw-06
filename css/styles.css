@@ -806,23 +806,40 @@ margin-bottom: 72px;
     }
 
     .footer-container {
-      
-        flex-wrap: nowrap;
-        gap: 0;
-    flex-direction: row; 
+
+        display: flex;
+        flex-direction: row; 
         align-items: baseline;
+       
+        justify-content: flex-start;
+        
+        width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+        gap: 0;
     }
 
     .footer-info {
+       
+        align-items: flex-start;
         margin-right: 120px;
     }
 
     .footer-soc-container {
+       
+        align-items: flex-start;
         margin-right: 80px;
     }
 
     .footer-subscribe-container {
-        margin-left: auto;
+      
+        align-items: flex-start;
+    }
+
+    .footer-form {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
     }
 }
 
